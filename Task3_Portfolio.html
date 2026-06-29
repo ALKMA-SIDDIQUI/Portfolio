@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan - Portfolio | CodeAlpha Task</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+        
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">Alkma siddiqui</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Hello, I'm</h2>
+                <h1>Alkma <span>siddiqui</span></h1>
+                <p>Full Stack Developer & UI/UX Designer passionate about creating beautiful, functional, and user-centered digital experiences. I transform complex problems into elegant solutions.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View My Work</a>
+                    <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="C:\Users\USER\Desktop\Documnets\edit.jpeg" alt="Alex Morgan">
+                <div class="floating-card card-1">
+                    <i class="fas fa-code"></i>
+                    <span>Trainee</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>3+ Projects</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="section-header fade-in">
+            <h2>About <span>Me</span></h2>
+            <p>Passionate developer with a love for clean code and beautiful design</p>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-image fade-in">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80" alt="Working">
+            </div>
+            <div class="about-text fade-in">
+                <h3>I'm a Creative Developer based in San Francisco</h3>
+                <p>Hi, I'm Alkma Siddiqui, a B.Tech 2nd Year Computer Science & Engineering student with a strong foundation in software development. Before pursuing my B.Tech, I successfully completed my Diploma in Computer Science, which gave me practical knowledge of programming, web development, and computer fundamentals.</p>
+                <p>I believe in writing clean, maintainable code and designing interfaces that are both beautiful and functional. When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h4>3+</h4>
+                        <p>Projects Completed</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="section-header fade-in">
+            <h2>My <span>Skills</span></h2>
+            <p>Technologies and tools I use to bring ideas to life</p>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card fade-in">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5 & CSS3</h3>
+                <p>Semantic markup, responsive design, CSS Grid, Flexbox, and modern animations</p>
+                <div class="skill-bar"><div class="skill-progress" style="--progress: 95%"></div></div>
+            </div>
+            <div class="skill-card fade-in">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>ES6+, DOM manipulation, async programming, and modern frameworks</p>
+                <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
+            </div>
+            <div class="skill-card fade-in">
+                <i class="fab fa-react"></i>
+                <h3>React & Express.js</h3>
+                <p>Component-based architecture, hooks, state management, and SSR</p>
+                <div class="skill-bar"><div class="skill-progress" style="--progress: 88%"></div></div>
+            </div>
+            <div class="skill-card fade-in">
+                <i class="fab fa-node-js"></i>
+                <h3>Node.js</h3>
+                <p>RESTful APIs, Express.js, authentication, and real-time applications</p>
+                <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+            </div>
+            <div class="skill-card fade-in">
+                <i class="fas fa-database"></i>
+                <h3>Databases</h3>
+                <p>MongoDB, PostgreSQL, Firebase, and database design optimization</p>
+                <div class="skill-bar"><div class="skill-progress" style="--progress: 82%"></div></div>
+            </div>
+            <div class="skill-card fade-in">
+                <i class="fab fa-microsoft fa-2x"></i>
+                <h3>Microsoft Office</h3>
+                <p>Microsoft Word, Microsoft Excel, Microsoft PowerPoint</p>
+                <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="section-header fade-in">
+            <h2>Featured <span>Projects</span></h2>
+            <p>Some of my recent work that I'm proud of</p>
+            <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+            
+            <div class="project-card fade-in">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Dashboard">
+                    <div class="project-overlay">
+                        <a href="https://github.com/ALKMA-SIDDIQUI/Music_Player.git"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/ALKMA-SIDDIQUI/Music_Player.git"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Music Player</h3>
+                    <p>A responsive music player with play, pause, next, previous, seek, and volume controls for a seamless listening experience.</p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80" alt="Code Editor">
+                    <div class="project-overlay">
+                        <a href="https://github.com/ALKMA-SIDDIQUI/Portfolio.git"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/ALKMA-SIDDIQUI/Portfolio.git"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-info">
+                    <h3>Personal Portfolio</h3>
+                    <p>A responsive personal portfolio showcasing my skills, projects, education, certifications, and achievements with a modern user interface.</p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&q=80" alt="Task Manager">
+                    <div class="project-overlay">
+                        <a href="https://github.com/ALKMA-SIDDIQUI/Gallery-.git"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/ALKMA-SIDDIQUI/Gallery-.git"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Image Gallery</h3>
+                    <p>A responsive image gallery with category filtering, image previews, and a modern, user-friendly interface.</p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+             <div class="project-card fade-in">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="E-Commerce">
+                    <div class="project-overlay">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Staylo</h3>
+                    <p>A responsive stay booking platform with property listings, search, booking management, and user authentication.</p>
+                    <div class="project-tags">
+                        <span>React</span><span>Node.js</span><span>MongoDB</span>
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="section" id="resume">
+        <div class="section-header fade-in">
+            <h2>My <span>Resume</span></h2>
+            <p>Education and professional experience</p>
+            <div class="section-line"></div>
+        </div>
+        <div class="resume-content">
+            <div class="resume-card fade-in">
+                <h3><i class="fa-solid fa-award"></i> Certification</h3>
+                <div class="timeline-item">
+                    <h4>Full Stack Certification</h4>
+                    <div class="date">2025 | Apna college</div>
+                    <p>Successfully completed the MERN Full Stack Development course from Apna College, gaining hands-on experience in building modern web applications. Developed projects using MongoDB, Express.js, React.js, and Node.js.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>TCS iON Career Edge – Young Professional</h4>
+                    <div class="date">2025 | TCS iON</div>
+                    <p>Successfully completed the TCS iON Career Edge – Young Professional certification, strengthening my communication, interview, and workplace readiness skills. Enhanced my knowledge of AI fundamentals, business etiquette, and professional development.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Junior Web Developer</h4>
+                    <div class="date">2023 - 2024 | Intern</div>
+                    <p>Built responsive websites and implemented frontend features. Gained experience in agile development workflows.</p>
+                </div>
+            </div>
+            <div class="resume-card fade-in">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="timeline-item">
+                    <h4>Bachelor’s in Computer Science</h4>
+                    <div class="date">2025 - Present | JSSATE NOIDA</div>
+                    <p>Passionate about software development, problem-solving, and building innovative web applications.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Diploma in Computer Science</h4>
+                    <div class="date">2022 - 2025 | GPCS</div>
+                    <p>Successfully completed a Diploma in Computer Science Engineering, building a strong foundation in programming, databases, and web development. Developed practical technical skills through academic projects and hands-on learning.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>High School</h4>
+                    <div class="date">2022 | A.S.S.S.H.S.S</div>
+                    <p>Successfully completed High School, building a strong academic foundation in mathematics, science, and analytical thinking. Developed discipline, curiosity, and essential learning skills that support my technical education.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="section-header fade-in">
+            <h2>Get In <span>Touch</span></h2>
+            <p>Let's discuss your next project or just say hello</p>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info fade-in">
+                <h3>Let's Work Together</h3>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>alkmasiddiki8897@email.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+(91)- 8176008897</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Noida, India</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/alkma-siddiqui/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="contact-form fade-in">
+                <form onsubmit="event.preventDefault(); alert('Message sent successfully!'); this.reset();">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Email</label>
+                        <input type="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Project Inquiry" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="form-btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Crafted with <span>♥</span> by Alkma Siddiqui | CodeCraftman</p>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Mobile menu toggle
+        function toggleMenu() {
+            const nav = document.getElementById('navLinks');
+            nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+            nav.style.position = 'absolute';
+            nav.style.top = '70px';
+            nav.style.left = '0';
+            nav.style.right = '0';
+            nav.style.flexDirection = 'column';
+            nav.style.background = 'rgba(2, 6, 23, 0.95)';
+            nav.style.padding = '20px';
+            nav.style.backdropFilter = 'blur(20px)';
+            nav.style.gap = '20px';
+        }
+
+        // Intersection Observer for fade-in animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
